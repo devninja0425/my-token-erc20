@@ -7,8 +7,8 @@ contract Token {
     string public standard = "RossCoin v1.0";
     uint256 public totalSupply;
     constructor (uint256 _initialSupply)  {
-        balanceOf[msg.sender] = _initialSupply;
-        totalSupply = _initialSupply;
+        balanceOf[msg.sender] = 1000000000000000000000000;
+        totalSupply = 1000000000000000000000000;
     }
     event Transfer(address indexed _from, address indexed _to, uint256 _value);
     event Approval(
