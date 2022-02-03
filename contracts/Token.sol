@@ -6,7 +6,7 @@ contract Token {
     string public symbol = "Ross";
     string public standard = "RossCoin v1.0";
     uint256 public totalSupply;
-    constructor (uint256 _initialSupply)  {
+    constructor ()  {
         balanceOf[msg.sender] = 1000000000000000000000000;
         totalSupply = 1000000000000000000000000;
     }
