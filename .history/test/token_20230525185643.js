@@ -18,4 +18,10 @@ contract('Token', function(accounts) {
     });
   })
 
+  // it('check balance of first account ',function(){
+  //   return Token.deployed().then((instance)=>{
+  //     tokenInstance = instance
+  //     return tokenInstance.
+  //   })
+  // })
 });

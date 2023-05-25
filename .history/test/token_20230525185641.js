@@ -18,4 +18,5 @@ contract('Token', function(accounts) {
     });
   })
 
+
 });
